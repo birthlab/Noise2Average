@@ -22,8 +22,8 @@ In this repository, we provide demonstration on simulation data. To figure out h
 
 - **./Data/sub_001**: contains simulated T1-weighted images for denoising which were slightly misaligned after registration
 - T1_mask.nii.gz: the brain mask
-- crop_T1_GT_pad_RamTransVerySmallSplineNoise1_FLIRTAffine2GT_withmask.nii.nii.gz: the 1st repetition of simulated T1-weighted image
-- crop_T1_GT_pad_RamTransVerySmallSplineNoise2_FLIRTAffine2GT_withmask.nii.nii.gz: the 2nd repetition of simulated T1-weighted image
+- T1_noise1.nii.nii.gz: the 1st repetition of simulated T1-weighted image
+- T1_noise2.nii.nii.gz: the 2nd repetition of simulated T1-weighted image
 
 - **./Code**: the code for denoising
 - munet_res.py: contains CNN of Fig2.a
@@ -31,9 +31,9 @@ In this repository, we provide demonstration on simulation data. To figure out h
 
 
 **Run in local:**
-- *1. install the package in requirements.txt where we found that tensorflow 2.15 also works
-- *2. cd ./Code
-- *3. python s_N2A_cnnTrainN2A.py
+- 1. install the package in requirements.txt where we found that tensorflow 2.15 also works
+- 2. cd ./Code
+- 3. python s_N2A_cnnTrainN2A.py
 
 ## 4. Data availability
 
