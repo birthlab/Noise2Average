@@ -286,8 +286,8 @@ if shouldtrain:
         write_log(log_file, f"Batch Size: {nbatch}, Epochs per Iteration: {nepoch}, Total Iterations: {niter}")
         
         # 数据文件路径
-        fpImg1 = os.path.join(dpSub,'crop_T1_GT_pad_RamTransVerySmallSplineNoise1_FLIRTAffine2GT_withmask.nii.nii.gz')
-        fpImg2 = os.path.join(dpSub,'crop_T1_GT_pad_RamTransVerySmallSplineNoise2_FLIRTAffine2GT_withmask.nii.nii.gz') 
+        fpImg1 = os.path.join(dpSub,'T1_noise1.nii.nii.gz')
+        fpImg2 = os.path.join(dpSub,'T1_noise2.nii.nii.gz') 
         fpMask = os.path.join(dpSub,'T1_mask.nii.gz')
 
         print("📂 Loading images...")
