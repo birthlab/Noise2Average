@@ -20,7 +20,7 @@ In this repository, we provide demonstration on simulation data. To figure out h
 - superv_lr1e4_ep20.h5: the model pretrained on WU-Minn-Oxford HCP T1-weighted data (for more details please refer to reference 2)
 - superv_lr1e4_ep20.mat: the training process of pretrain model
 
-- **./Data/sub_001/t1w_sim0.5**: contains simulated T1-weighted images for denoising which were slightly misaligned after registration
+- **./Data/sub_001**: contains simulated T1-weighted images for denoising which were slightly misaligned after registration
 - T1_mask.nii.gz: the brain mask
 - crop_T1_GT_pad_RamTransVerySmallSplineNoise1_FLIRTAffine2GT_withmask.nii.nii.gz: the 1st repetition of simulated T1-weighted image
 - crop_T1_GT_pad_RamTransVerySmallSplineNoise2_FLIRTAffine2GT_withmask.nii.nii.gz: the 2nd repetition of simulated T1-weighted image
